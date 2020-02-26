@@ -46,24 +46,24 @@ while True:
         cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
-        if name != "YOUR NAME":
-            driver = webdriver.Chrome(executable_path="CHROME DRIVER PATH")
-            driver.get("https://www.google.com/android/find")
-            time.sleep(2)
-            pyautogui.typewrite(gmail)
-            pyautogui.press("enter")
-            time.sleep(2)
-            pyautogui.typewrite(password)
-            pyautogui.press("enter")
-            time.sleep(5)
-            pyautogui.click(x=85,y=231)
-            time.sleep(2)
-            pyautogui.click(x=200,y=495)
-            pyautogui.hotkey('ctrlleft', 'altleft', 'l')
+    if name != "YOUR NAME":
+        driver = webdriver.Chrome(executable_path="CHROME DRIVER PATH")
+        driver.get("https://www.google.com/android/find")
+        time.sleep(2)
+        pyautogui.typewrite(gmail)
+        pyautogui.press("enter")
+        time.sleep(2)
+        pyautogui.typewrite(password)
+        pyautogui.press("enter")
+        time.sleep(5)
+        pyautogui.click(x=85,y=231)
+        time.sleep(2)
+        pyautogui.click(x=200,y=495)
+        pyautogui.hotkey('ctrlleft', 'altleft', 'l')
 
-        else:
-            print("Welcome BOSS")
-            os.system("gnome-terminal")
+    else:
+        print("Welcome BOSS")
+        os.system("gnome-terminal")
 
     # Display the resulting image
     cv2.imshow('Video', frame)
