@@ -1,5 +1,5 @@
 # FaceRecognitionSecurity
-Protect your Computer against strangers !
+Protect your Computer against strangers ! If foreigners want to log in to your computer, ring your phone and lock the computer screen automatically.
 ## Features
 
 Find faces in Live Camera
@@ -29,7 +29,7 @@ Else run 'python Protect.py'
 
 • If Camera Detect Your Face Open a new Terminal.Otherwise The Phone Will Ring Even If It is Silent.
 
-• Connect to the Google Android Find My Phone and Click the Ring the Phone Button.
+• Connect to the Google Android Find My Phone and Click the Ring the Phone Button and Lock the Screen.
 
 ![github-small](phone.png)
 
