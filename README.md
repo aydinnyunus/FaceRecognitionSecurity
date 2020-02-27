@@ -23,7 +23,7 @@ Find faces in Live Camera
 • Change GMAIL,PASSWORD,DRIVER LOCATION and PHOTO LOCATION in Protect.py 
 
 ```
-If you don't have a photo run 'python Take Photo.py'
+If you don't have a photo run 'python Take Photo.py' and Press SPACE for Take Photo.
 Else run 'python Protect.py'
 ```
 
